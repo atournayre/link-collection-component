@@ -1,5 +1,5 @@
 {
-    "name": "atournayre/entity-validation",
+    "name": "atournayre/link-collection-component",
     "description": "Provides methods to help manage collection of links",
     "type": "library",
     "require": {
