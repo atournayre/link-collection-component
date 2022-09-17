@@ -19,7 +19,7 @@ class HtmlConverter implements LinkCollectionConverterInterface
                     '<a href="%s" %s>%s</a>',
                     $link->getHref(),
                     self::attributeAsString($link),
-                    $attributes['title'] ?? null,
+                    $link->getAttributes()['title'] ?? null,
                 );
             }
         );
